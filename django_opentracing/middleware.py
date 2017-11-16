@@ -2,7 +2,7 @@ import django
 from django.conf import settings
 from jaeger_client import Config
 import opentracing
-from tracer import DjangoTracer
+from .tracer import DjangoTracer
 
 try:
     # Django >= 1.10
